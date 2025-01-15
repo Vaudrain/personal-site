@@ -1,7 +1,6 @@
 <template>
     <div class="page">
         <div class="text">COMING SOON</div>
-        <div class="bg-image"></div>
         <NuxtImg class="face" src="/face.jpg"></NuxtImg>
         <div class="background">
             <div class="halftone"></div>
@@ -31,35 +30,27 @@
     animation: pulse 10s linear infinite;
 }
 
-.bg-image {
-    overflow: hidden;
-    z-index: 1;
-    position: absolute;
-    border: 3px solid colours.$accent;
-    border-radius: 100000px;
-    width: 50vw;
-    height: 50vw;
-	mix-blend-mode: multiply;
-}
-
 .face {
     overflow: hidden;
     z-index: 1;
     position: absolute;
-    width: 50vw;
-    height: 50vw;
+    min-width: 200px;
+    max-width: 30vw;
+    min-height: 200px;
+    max-height: 30vw;
     border-radius: 100000px;
+    border: 3px solid colours.$accent;
 }
 
 .background {
     width: 100%;
-    height: 100%;
+    height: 140%;
     overflow: hidden;
 	margin: 0;
 	min-height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(auto-fit,300%);
-	grid-template-rows: repeat(auto-fit,130%);
+	grid-template-rows: repeat(auto-fit,120%);
 	gap: 1rem;
 	align-items: center;
 	justify-content: center;
@@ -100,11 +91,11 @@
 	background-image: radial-gradient(circle at center, white var(--stop1), transparent var(--stop2)), radial-gradient(circle at center, white var(--stop1), transparent var(--stop2));
 	background-size: var(--bgSize) var(--bgSize);
 	background-position: 0 0, var(--bgPosition) var(--bgPosition);
-    animation: move-right 10s ease-in-out infinite;
+    animation: orbit 15s linear infinite;
 }
 
 .two {
-    animation: wobble 2.3s ease-in-out infinite;
+    animation: wobble 2s step-start infinite;
     grid: 0;
 }
 
@@ -114,21 +105,31 @@
     }
 }
 
+
+@keyframes orbit {
+    from {  transform: rotate(0deg) translateX(40px) rotate(0deg); }
+    to   {  transform: rotate(360deg) translateX(40px) rotate(-360deg); }
+}
+
 @keyframes wobble {
-    20% {
+    0% {
+        transform:translate(0,-2px); 
+    }
+
+    25% {
         transform: translate(2px,-1px);
     }
 
-    54% {
-        transform:translate(1px,2px); 
+    50% {
+        transform:translate(0px,2px); 
     }
 
-    84% {
-        transform: translate(-1px,-1px);
+    75% {
+        transform: translate(-2px,-2px);
     }
 
     100% {
-        transform:translate(0,0); 
+        transform:translate(0,-2px); 
     }
 }
 
@@ -142,11 +143,7 @@
     }
 
     75% {
-        transform: translate(40px,-15px);
-    }
-
-    100% {
-        transform:translate(0,0); 
+        transform: translate(40px,15px);
     }
 }
 
