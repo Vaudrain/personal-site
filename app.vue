@@ -7,13 +7,12 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import '~/assets/css/main.scss';
 useHead({
   title: 'Vaud',
-  viewport: 'width=device-width, initial-scale=1',
   charset: 'utf-8',
-  meta: [{ name: 'description', content: 'Vaud' }],
+  meta: [{ name: 'url', content:'vaud.uk' }, { name: 'description', content:'Nicholas Bentley' }, { name: 'type', content:'website' }, { name:'image', content:'/face.jpg'}],
   link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
 })
 </script>
