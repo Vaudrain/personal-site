@@ -19,8 +19,9 @@
 	align-items: center;
 	justify-content: center;
     background: linear-gradient(0deg, colours.$accent, colours.$accent2);
-    position: inherit;
+    position: fixed;
     height: 100%;
+    z-index: -1;
 }
 
 .halftone {

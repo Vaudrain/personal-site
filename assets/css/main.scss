@@ -1,10 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-$accent: #252e4f;
+$accent: #8c0c4c;
 $accent-light: #585479;
-$accent2: #301723;
+$accent2: #252e4f;
+
+$transparent-background: #333333E0;
+
+$text-bold: #FFFFFF;
+$text: #d1d1d1;
+$text-quiet: #929292;
+$text-link:#9F4270;
+$text-link-visited: #B889A1;
 
 body {
     margin: 0;
     font-family: 'Poppins' ,'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: $text-link;
+    text-decoration: dashed;
+    &.bold {
+        color: $text-link;
+    }
+
+    &.quiet {
+        color: $text-link;
+    }
+
+    &:visited {
+        color: $text-link-visited;
+    }
+}
+
+.bold {
+    color: $text-bold;
+    font-weight: 800;
+}
+
+.quiet {
+    color: $text-quiet;
+}
+
+.large {
+    font-size: larger;
 }
