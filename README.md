@@ -2,5 +2,5 @@
 
 ## TO-DO
 
-- Placeholder
-- Everything Else
+- Update CV
+- Something fun
