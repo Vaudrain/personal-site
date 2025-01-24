@@ -6,7 +6,7 @@
             </div>
             <div class="text">
                 <div class="bold large">Nicholas Bentley</div>
-                <div class="quiet">Full-stack Developer<br>& HCI/UX Researcher<br>nic@vaud.uk</div>
+                <div class="quiet">Full-stack Developer<br>& HCI/UX Researcher<br>nic@nicbentley.uk</div>
             </div>
         </div>
         <div id="intro" class="block">
@@ -111,7 +111,7 @@
                 <ul><NuxtImg class="link-image" src="/orcid.png"></NuxtImg>ORCID - <a href="https://orcid.org/my-orcid?orcid=0000-0003-0381-4221" target="_blank">0000-0003-0381-4221 ↗</a></ul>
                 <ul><NuxtImg class="link-image" src="/linkedin.webp"></NuxtImg><a href="https://www.linkedin.com/in/nic-b-9a03b8157/" target="_blank">LinkedIn ↗</a></ul>
                 <ul><NuxtImg class="link-image" src="/CV.png"></NuxtImg><a href="/CV-Nicholas-Bentley.pdf" target="_blank">CV / Resume ↗</a></ul>
-                <ul><NuxtImg class="link-image" src="/email.png"></NuxtImg>email - <a href="mailto: nic@vaud.uk" target="_blank">nic@vaud.uk ↗</a></ul>
+                <ul><NuxtImg class="link-image" src="/email.png"></NuxtImg>email - <a href="mailto: nic@nicbentley.uk" target="_blank">nic@nicbentley.uk ↗</a></ul>
             </div>
         </div>
     </div>
