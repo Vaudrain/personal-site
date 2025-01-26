@@ -2,7 +2,7 @@
     <div class="banner">
         <BackgroundDots/>
     </div>
-    <NuxtImg class="face" src="/face.jpg"></NuxtImg>
+    <NuxtImg class="face" src="/face.png"></NuxtImg>
 </template>
 
 <style lang="scss" scoped>

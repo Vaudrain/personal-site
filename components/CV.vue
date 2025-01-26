@@ -2,7 +2,7 @@
     <div class="CV">
         <div id="title" class="block">
             <div class="face-container">
-                <NuxtImg class="face" src="/face.jpg"></NuxtImg>
+                <NuxtImg class="face" src="/face.png"></NuxtImg>
             </div>
             <div class="text">
                 <div class="bold large">Nicholas Bentley</div>
@@ -95,7 +95,7 @@
             <div class="entry">
                 <div class="date">
                     <div class="text quiet">Ongoing</div>
-                    <NuxtImg class="logo face" src="/face.jpg"></NuxtImg>
+                    <NuxtImg class="logo face" src="/avatar.jpg"></NuxtImg>
                 </div>
                 <div class="info">
                     <div class="bold">This website</div>
