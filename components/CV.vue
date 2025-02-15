@@ -108,7 +108,7 @@
             <div class="bold">Links</div>
             <div>
                 <ul><NuxtImg class="link-image" src="/github.svg"></NuxtImg> Github - <a href="https://github.com/Vaudrain" target="_blank">@Vaudrain ↗</a></ul>
-                <ul><NuxtImg class="link-image" src="/orcid.png"></NuxtImg>ORCID - <a href="https://orcid.org/my-orcid?orcid=0000-0003-0381-4221" target="_blank">0000-0003-0381-4221 ↗</a></ul>
+                <ul><NuxtImg class="link-image" src="/orcid.png"></NuxtImg>ORCID - <a href="https://orcid.org/0000-0003-0381-4221" target="_blank">0000-0003-0381-4221 ↗</a></ul>
                 <ul><NuxtImg class="link-image" src="/linkedin.webp"></NuxtImg><a href="https://www.linkedin.com/in/nic-bentley-uk/" target="_blank">LinkedIn ↗</a></ul>
                 <ul><NuxtImg class="link-image" src="/CV.png"></NuxtImg><a href="/CV-Nicholas-Bentley.pdf" target="_blank">CV / Resume ↗</a></ul>
                 <ul><NuxtImg class="link-image" src="/email.png"></NuxtImg>email - <a href="mailto: nic@nicbentley.uk" target="_blank">nic@nicbentley.uk ↗</a></ul>
